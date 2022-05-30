@@ -17,8 +17,7 @@ def main(path, sort_keys):
     """
     Entry point
     """
-    print(sort_keys)
-    with open(path, "r", encoding=utf_8) as _f:
+    with open(path, "r", encoding='utf_8') as _f:
         print(json_format(_f.read(), sort_keys))
 
 
